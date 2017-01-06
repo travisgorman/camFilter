@@ -1,4 +1,4 @@
-#CamFilter
+#[CamFilter](http://travis.bingo/camFilter)
 a webcam app similar to Photo Booth. With filters you can manipulate.
 
 #Features
