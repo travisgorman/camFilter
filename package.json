@@ -1,0 +1,22 @@
+{
+  "name": "camfilter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/travisgorman/camFilter.git"
+  },
+  "scripts": {
+    "start" : "browser-sync start --server --files '*.css, *.html, *.js'"  
+  },
+  "author": "Travis Gorman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/travisgorman/camFilter/issues"
+  },
+  "homepage": "https://github.com/travisgorman/camFilter#readme"
+}
