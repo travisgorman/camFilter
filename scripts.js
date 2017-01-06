@@ -44,11 +44,11 @@ function takePhoto() {
 	const link = document.createElement('a');
 	link.href = data;
 	link.setAttribute('download', 'handsome');
-	link.textContent = 'Download Image';
+	// link.textContent = 'Download Image';
+	link.innerHTML = `<img src="${data}" alt="handsome man"/>`;
 	strip.insertBefore(link, strip.firstChild);
 
 console.log( link )
-console.log( data )
 
 }
 
